@@ -1,2 +1,2 @@
 #!/bin/bash
-cp -n *.html .. 2>/dev/null || true
+cp -u *.html ..
