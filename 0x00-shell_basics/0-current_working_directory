@@ -1,3 +1,5 @@
 #!/bin/bash
 
-echo $(pwd)
+# Get the absolute path of the current working directory and print it to the terminal
+echo $(realpath $(pwd))
+
